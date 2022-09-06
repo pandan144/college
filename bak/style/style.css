@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+	z-index:997;
+	position:fixed;
+	left:0;
+	right:0;
+}
+.panner-content{
+	background-image:url(../img/hero-bg.jpg);
+	background-size:cover;
+	width:100%;
+	height:87vh;
+	background-attachment:fixed;
+	position:relative;
+	color:white;
+	align-items:center;
+	top:0;
+
+}
+.panner-content:after{
+	content:"";
+	background:rgba(60, 64, 71 ,0.60);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+li{
+	list-style-type:none;
+}
+.header-main{
+	display:flex;
+	justify-content:space-between;
+	bottom:0;
+	top:0;
+	margin-top:10px;
+	position:relative;
+	}
+.text{
+	font-size:18px;
+	width:100%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+	margin-left:20px;
+	box-sizing:border-box;
+	color:white;
+	}
+.a-link{
+	height:20px;
+	width:100%;
+	display:flex;
+	padding:5px;
+	justify-content:space-between;
+	margin-top:10px;
+	z-index:1;
+	box-sizing:border-box;
+	}
+.a-link  a:hover{
+	color:orange;
+}
+.panner-container{
+	position:absolute;
+	margin-left:10%;
+	margin-right:10%;
+	z-index:997;
+}
+.panner-cont{
+	text-align:center;
+	padding-top:30%;
+	width:160%;
+}
+.panner-cont h1 {
+	font-size:40px;
+	letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+}
+.panner-cont p{
+	font-size:20px;
+	letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+button{
+	padding: 9px 35px;
+	border:3px solid orange;
+	border-radius:20px;
+	margin-top:20px;
+	color:white;
+	background:transparent;
+}
+button:hover{
+	background-color:rgb(232, 221, 7);
+}
+.img-container{
+  width:85%;
+  margin:auto;
+}
+.img-cont{
+	width:100%;
+	height:100px;
+}
+.img-link{
+	display:flex;
+	justify-content:space-between;
+}
+img{
+	padding-top:10px;
+	width:70%;
+}
