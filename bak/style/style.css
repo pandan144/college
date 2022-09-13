@@ -47,7 +47,7 @@ ul{
 	background-image:url(../img/hero-bg.jpg);
 	background-size:cover;
 	width:100%;
-	height:87vh;
+	height:77vh;
 	background-attachment:fixed;
 	position:relative;
 	color:white;
@@ -404,6 +404,33 @@ font-weight:bold;
 	position:relative;
 	padding:10px;
 }
+.pri-nu2{
+	width:100%;
+	height:300px;
+	border:1px solid white;
+	box-shadow:0 0 1px blak;
+	line-height:25px;
+	margin-right:10px;
+	position:relative;
+	padding:10px;
+}
+.pri-amo2 h3{
+	background-color:orange;
+	padding:20px;
+	border-radius:10px;
+	box-shadow:0px 0px 4px rgb(0 0 0 / 12%);
+}
+.pri-amo2 h4{
+	color:orange;
+	font-size:20px;
+	font-weight:bold;
+	padding-top:5px;
+}
+.pri-amo2 span{
+	color:gray;
+	font-size:15px;
+	font-weight:small;
+}
 .pri-link{
 	background-color:white;
 	padding:20px;
@@ -413,6 +440,19 @@ font-weight:bold;
 .pri-link a{
 	color:blue;
 	
+}
+.pri-link2{
+	background-color:rgb(227, 146, 41);
+	padding:20px;
+	margin-top:50px;
+	border-radius:10px;
+}
+.pri-link2 a{
+	color:blue;
+}
+.pri-link2:hover{
+	background:orange;
+	color:white;
 }
 del{
 	color:gray;
