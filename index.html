@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form</title>
+		<style>
+		form{
+		 background-color:gray;
+		 text-align:center;
+		}
+		label{
+		padding:10px;
+		}
+		</style>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>application form</legend>
+			
+				<label for="fname">full name</label>
+				<input type="text" id="name" placeholder="ayan" ><br>
+				
+				<label for="Email">Email</label>
+				<input type="email" id="name" placeholder="arulak@gmail.com" ><br>
+				
+				<label for="genter">genter</label>
+				<input type="radio" id="male" value="male" name="genter">male
+				<input type="radio" id="female" value="female" name="genter">female<br>
+				
+				<label for="contry">nationailty</label>
+				<select>
+					<option value="indian">indian</option>
+					<option value="america">america</option>
+				</select><br>
+				
+				<label for="skills">skills</label>
+				<input type="checkbox" id="skills" value="aspnet" name="skills">aspnet
+				<input type="checkbox" id="skills" value="jquerry" name="skills">jquerry
+				<input type="checkbox" id="skills" value="mvc" name="skills">mvc
+				<input type="checkbox" id="skills" value="sql server" name="skills">sql server<br>
+				
+				<label for="postapplying">post applying for</label>
+				<input type="radio" id="apply" value="trainer" name="postapplying">trainer
+				<input type="radio" id="apply" value="software enginering" name="postapplying">software enginering
+				<input type="radio" id="apply" value="team laster" name="postapplying">team laster
+				<input type="radio" id="apply" value="project manager" name="postapplying">project manager<br>
+				
+				<label for="file">upload resume</label>
+				<input type="file" id="file" value="choose file"><br>
+				
+				<label for="text area"> paste your resume</label>
+				<textarea type="text">sample resume text</textarea><br>
+				
+				<input type="checkbox" id="skills" >notify me the stantens via email<br>
+				
+				<input type="radio" id="agere" >i agree to tearm & condition<br>
+				
+				<input type="submit">
+				<button type="reset"> reset </button>
+			</fieldset>
+		</form>
+	</body>
+</html>
