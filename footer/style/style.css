@@ -3,6 +3,9 @@
 	padding:0;
 	box-sizing:border-box;
 }
+body{
+	background-color:#e6e6e6;
+}
 .container{
 	width:85%;
 	margin:auto;
@@ -14,22 +17,22 @@
 .footer h1{
 	font-size:30px;
 	font-weight:bold;
-	color:blue;
+	color:#33334d;
 	/* position:relative; */
 }
 .footer p{
-	color:gray;
+	color: gray;
 	letter-spacing:1px;
 	line-height:1.3rem;
-	padding-top:20px;
+	padding-top:3%;
 }
 h1::after{
 	content:"";
 	position:relative;
-    width:7%;
-	height:4px;
+    width:5%;
+	height:3px;
 	border-radius:20px;
-	background-color:gray;
+	background-color: #0000e6;
 	margin:auto;
 	display:flex;
     top:1rem;
@@ -44,15 +47,15 @@ h1::after{
 }
 .con{
 	width:50%;
-	background-color:rgb(242, 247, 247);
 }
 
 .add-box{
 	width:100%;
 	align-items:center;	
-	padding-top:10px;
+	padding:15px;
 	border:3px solid white;
 	background-color:rgb(270, 270, 270);
+	box-shadow: 0px 0px 10px #33334d42;
 }
 .add-box i{
 	font-size:40px;
@@ -66,27 +69,27 @@ h1::after{
 	font-size:20px;
 	font-weight:bold;
 	color:black;
-	padding-top:10px;
+	
 }
 .add-box p{
 	color:gray;
 	font-size:16px;
 	padding-top:10px;
-	line-height:2rem;
+	line-height:1rem;
 }
 
 .eaca{
 	display:flex;
 	width:100%;
-	margin-top:10%;
+	margin:4% 0;
 	justify-content:space-between;
 }
 .add-box1{
 	width:49%;
 	border:3px solid white;
-	padding:5px;
+	padding:15px;
 	background-color:rgb(270, 270, 270);
-	box-shadow:2px 1px 3px black;
+	box-shadow: 0px 0px 10px #33334d42;
 	
 }
 .add-box1 i{
@@ -121,38 +124,44 @@ form{
 	justify-content:space-between;
 
 	}
-#name{
-	width:50%;
-	height:30px;
-	border-color:rgba(255,255,255,0.6);
+	input{
+	padding:10px;
+	border:lpx solid rgba(255,255,255);
+	
+	}
+input:focus{
+	outline:none;
 }
-#email{
+	
+.name{
+	width:50%;
+}
+.email{
 	width:48%;
-	height:30px;
-	border-color:rgba(255,255,255,0.6);
+	
 }
 .su{
 	width:100%;
 }
-#sub{
+.sub{
 	width:100%;
-	margin-top:10px;
-	height:30px;
-	border-color:rgba(255,255,255,0.6);
+	margin-top:20px;
 }
 .divt{
 	width:100%;
-	margin-top:10px;
-	height:50%;
+	margin-top:20px;
 }
 textarea{
 	width:100%;
-	height:150px;
-	display:black;
-	border-color:rgba(255,255,255,0.6);
+	height:150px; 
+	padding:10px;
+	border:1px solid rgb(120 112 112);
+}
+textarea:focus{
+	outline:none;
 }
 .send{
-	margin-top:10%;
+	padding-top:5%;
 	width:100%;
 
 }
@@ -161,9 +170,9 @@ a{
 	color:white;
 }
 a{
-	margin-top:10px;
+	padding-top:5px;
 	background-color:blue;
 	padding:10px 40px;
 	border-radius:5px;
-	box-shadow:0 0 10px black;
+	box-shadow:0 0 1px black;
 }
